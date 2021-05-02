@@ -2,11 +2,11 @@
 
 // Usando a função antes da sua declaração/definição (funciona!)
 const age = calcAge(1987);
+console.log(age);
 
 function calcAge(birthYear) {
   return new Date().getFullYear() - birthYear;
 }
-console.log(age);
 
 // function expression
 // função anônima
