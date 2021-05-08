@@ -21,3 +21,7 @@ const calcAgeV2 = function (birthYear) {
 
 const age2 = calcAgeV2(1990);
 console.log(age2);
+
+// The difference between function declaration and function expression
+// The function declaration is loaded before code interpretation. Therefore the invocation order DOES NOT difference
+// The function expression is load during the code interpretation. Therefore the invocation order does difference
