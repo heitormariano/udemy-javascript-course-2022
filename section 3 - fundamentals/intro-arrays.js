@@ -17,7 +17,7 @@ const marcos = [firtName, lastName, 2020 - 1990, 'teacher', friends];
 console.log(marcos);
 
 // calAge function
-const calcAge = (birthYear) => new Date().getFullYear() - birthYear;
+const calcAge = birthYear => new Date().getFullYear() - birthYear;
 
 const age1 = calcAge([years[0]]);
 const age2 = calcAge([years[1]]);

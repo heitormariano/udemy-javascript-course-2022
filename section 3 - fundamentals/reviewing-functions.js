@@ -1,4 +1,4 @@
-const yearsUntilRetirement = (birthYear) => {
+const yearsUntilRetirement = birthYear => {
   const age = new Date().getFullYear() - birthYear;
   const retirement = 65 - age;
 
