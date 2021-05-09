@@ -1,4 +1,4 @@
-const calcTip = (valueBill) => {
+const calcTip = valueBill => {
   if (valueBill >= 50 && valueBill <= 300) {
     return valueBill * 0.15;
   } else {

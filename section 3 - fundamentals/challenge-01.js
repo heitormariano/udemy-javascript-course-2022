@@ -1,5 +1,5 @@
 // using for and arrays
-const calcAverage = (scores) => {
+const calcAverage = scores => {
   let sum = 0;
   for (let index = 0; index < scores.length; index++) {
     sum = sum + scores[index];

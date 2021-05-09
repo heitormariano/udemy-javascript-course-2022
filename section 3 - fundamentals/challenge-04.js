@@ -1,7 +1,7 @@
-const calcTip = (valueBill) =>
+const calcTip = valueBill =>
   valueBill >= 50 && valueBill <= 300 ? valueBill * 0.15 : valueBill * 0.2;
 
-const calcAverage = (arr) => {
+const calcAverage = arr => {
   let sum = 0;
   for (let i = 0; i < arr.length; i++) {
     sum += arr[i];
