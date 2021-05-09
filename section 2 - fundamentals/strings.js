@@ -4,8 +4,9 @@ const now = 2021;
 const birthYear = 1987;
 const job = 'programmer';
 
-const hector = 'I\'m ' + firtName + ' ' + lastName + ', a ' + (now - birthYear) + ' years old ' + job;
-console.log(hector)
+const hector =
+  "I'm " + firtName + ' ' + lastName + ', a ' + (now - birthYear) + ' years old ' + job;
+console.log(hector);
 // template literal
 const hectorV2 = `I'm ${firtName} ${lastName}, a ${now - birthYear} years old ${job}`;
 console.log(hectorV2);
@@ -22,4 +23,3 @@ in JavaScript`;
 
 console.log(phrase);
 console.log(phraseV2);
-

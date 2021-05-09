@@ -14,7 +14,8 @@ if (averageDolphins > averageKoalas) {
     console.log('Average score is less than 100');
   }
 } else {
-  if (averageDolphins >= 100) { // podemos usar uma das médias, pois elas são iguais aqui
+  // podemos usar uma das médias, pois elas são iguais aqui
+  if (averageDolphins >= 100) {
     console.log('Both win the trophy 🏆');
   } else {
     console.log('Average score of teams is less than 100');

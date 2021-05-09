@@ -20,4 +20,3 @@ console.log(typeof null); // object (Bug)
 let nome = 'Joaquim';
 console.log(nome);
 console.log(typeof nome);
-

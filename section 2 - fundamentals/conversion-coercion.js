@@ -34,7 +34,7 @@ console.log(valueTest);
 console.log(typeof valueTest);
 
 valueTest = '1' + 1; // '11'
-console.log(typeof valueTest)
+console.log(typeof valueTest);
 
 valueTest = valueTest - 1; //coercion
 console.log(valueTest);

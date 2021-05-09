@@ -15,7 +15,6 @@ const firstName = 'Heitor';
 const lastName = 'Camara';
 console.log(firstName + ' ' + lastName);
 
-
 console.log(ageSarah + 2, ageJonas / 4, 2 ** 3);
 
 let x = 100;
