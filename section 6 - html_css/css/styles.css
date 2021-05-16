@@ -1,0 +1,59 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(231, 208, 191);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  padding: 50px;
+}
+
+h2 {
+  color: brown;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+#form-header {
+  text-align: center;
+}
+#form-example {
+  background-color: rgb(248, 227, 212);
+  border: rgb(58, 56, 56) 2px solid;
+  width: 420px;
+  padding: 18px;
+  margin-top: 30px;
+}
+
+input,
+button {
+  padding: 4px;
+  font-size: 14px;
+}
+
+a {
+  background-color: rgb(233, 152, 170);
+}
+p {
+  color: chocolate;
+}
+
+img:hover {
+  background-color: rgb(243, 122, 114);
+}
+
+.pudding-img {
+  background-color: rgb(248, 227, 212);
+  width: 150px;
+}
+.cutlery {
+  background-color: rgb(248, 227, 212);
+  width: 100px;
+}
+
+.circular {
+  border-radius: 100%;
+}
