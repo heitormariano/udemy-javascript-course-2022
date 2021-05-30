@@ -23,7 +23,7 @@ const restorePage = function () {
   restoreBasicElems();
 };
 
-const checkGuess = function (guess) {
+const checkGuessAndScore = function (guess) {
   let message = guess > secretNumber ? 'Too High' : 'Too low';
 
   if (score > 1) {
@@ -58,7 +58,7 @@ const checkNumber = function () {
       document.querySelector('.highscore').textContent = highscore;
     }
   } else if (guess !== secretNumber) {
-    checkGuess(guess);
+    checkGuessAndScore(guess);
   }
 };
 
