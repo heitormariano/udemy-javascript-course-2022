@@ -8,6 +8,10 @@ let secretNumber = generateNumber();
 let score = 20;
 let highscore = 0;
 
+const displayMessage = function (message) {
+  document.querySelector('.message').textContent = message;
+};
+
 const restoreBasicElems = function () {
   document.querySelector('body').style.backgroundColor = '#353333';
   document.querySelector('.number').style.width = '15rem';
@@ -18,7 +22,7 @@ const restorePage = function () {
   document.querySelector('.score').textContent = score;
   document.querySelector('.guess').value = '';
   secretNumber = generateNumber();
-  document.querySelector('.message').textContent = 'Start guessing...';
+  displayMessage('Start guessing...');
 
   restoreBasicElems();
 };
@@ -27,13 +31,13 @@ const checkGuessAndScore = function (guess) {
   let message = guess > secretNumber ? 'Too High' : 'Too low';
 
   if (score > 1) {
-    document.querySelector('.message').textContent = message;
+    displayMessage(message);
 
     score--;
     document.querySelector('.score').textContent = score;
     restoreBasicElems();
   } else {
-    document.querySelector('.message').textContent = 'You Lost the Game';
+    displayMessage('You Lost the Game');
 
     score = 0;
     document.querySelector('.score').textContent = score;
@@ -44,10 +48,10 @@ const checkGuessAndScore = function (guess) {
 const checkNumber = function () {
   const guess = Number(document.querySelector('.guess').value);
   if (!guess) {
-    document.querySelector('.message').textContent = 'No Number';
+    displayMessage('No Number');
     restoreBasicElems();
   } else if (guess === secretNumber) {
-    document.querySelector('.message').textContent = 'Correct Number';
+    displayMessage('Correct Number');
 
     document.querySelector('body').style.backgroundColor = '#157515';
     document.querySelector('.number').style.width = '30rem';
