@@ -1,7 +1,7 @@
 const message = 'Hello';
 console.log(message);
 
-// block scope
+// block scope (ES6)
 // A code block in JavaScript defines a scope for variables declared using let and const
 if (true) {
   // "if" block scope
