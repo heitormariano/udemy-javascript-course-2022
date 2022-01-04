@@ -1,0 +1,12 @@
+h2 {
+  color: blue;
+}
+
+.clicked {
+  color: rgb(206, 60, 60);
+  background-color: rgb(198, 203, 216);
+}
+
+#title-challenge {
+  text-align: center;
+}
