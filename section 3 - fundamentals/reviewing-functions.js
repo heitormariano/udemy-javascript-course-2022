@@ -1,12 +1,9 @@
 const yearsUntilRetirement = birthYear => {
-  const age = new Date().getFullYear() - birthYear;
+  const currentYear = new Date().getFullYear();
+  const age = currentYear - birthYear;
   const retirement = 65 - age;
 
-  if (retirement > 0) {
-    return retirement;
-  } else {
-    return -1;
-  }
+  return retirement > 0 ? retirement : -1;
 };
 
 const retirement = yearsUntilRetirement(1987);
@@ -18,7 +15,8 @@ if (retirement > 0) {
 }
 
 const yearsUntilRetirementV2 = (birthYear, firstName) => {
-  const age = new Date().getFullYear() - birthYear;
+  const currentYear = new Date().getFullYear();
+  const age = currentYear - birthYear;
   const retirement = 65 - age;
 
   if (retirement > 0) {

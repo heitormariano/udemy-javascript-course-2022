@@ -21,7 +21,7 @@ let firstName = 'Heitor';
 let lastName = 'Camara';
 var age = 33;
 
-console.log('Nome: ' + firstEmploye + ' ' + lastName);
+//console.log('Nome: ' + firstEmploye + ' ' + lastName); // Error
 console.log('Age: ' + age);
 
 const wifeName = 'Keyth';

@@ -16,4 +16,5 @@ const calcTempAmplitude = function (temps1, temps2) {
 };
 
 const amplitude = calcTempAmplitude(temps1, temps2);
-console.log(amplitude);
+console.log('Amplitude = ', amplitude);
+

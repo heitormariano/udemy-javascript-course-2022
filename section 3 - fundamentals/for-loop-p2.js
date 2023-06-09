@@ -1,14 +1,14 @@
 // using for loop
 const friends = ['Pedro', 'Tiago', 'João', 'Lucas'];
 
-console.log('Friends:');
+console.log('Friends List:');
 for (let i = 0; i < friends.length; i++) {
   console.log(friends[i]);
 }
 
 const countries = ['India', 'USA', 'Brazil', 'Japan'];
 
-console.log('Coutries:');
+console.log('Coutries List:');
 for (let i = 0; i < countries.length; i++) {
   console.log(countries[i]);
 }
@@ -53,7 +53,7 @@ console.log(ages);
 console.log('-------ONLY STRINGS-------');
 for (const prop in heitor) {
   if (typeof heitor[prop] !== 'string') continue;
-  console.log(heitor[prop], typeof heitor[prop]);
+  console.log(`value = ${heitor[prop]}`, `type = ${typeof heitor[prop]}`);
 }
 
 console.log('-------BREAK WITH NUMBER-------');
