@@ -22,9 +22,9 @@ for (let i = 0; i < showModalList.length; i++) {
 btnCloseModal.addEventListener('click', closeModal);
 overlay.addEventListener('click', closeModal);
 
-// keypress event
+// keypress event substituted
 // MDN web docs informs: this feature is no longer recommended
-// Recomendation: beforeinput or keydown
+// Recomendation: beforeinput or keydown events
 
 document.addEventListener('keydown', function (e) {
   if (e.key === 'Escape' && !modal.classList.contains('hidden')) {

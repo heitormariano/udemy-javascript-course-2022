@@ -66,7 +66,8 @@ const switchPlayer = function () {
 };
 
 const getCurrentScore = function () {
-  // The condition to switch to next player is based in dice value. When the value is 1 occurs the switching
+  // The condition to switch to next player is based in dice value. 
+  // When the value is 1 occurs the switching
   if (dice !== 1) {
     updateCurrentScore();
   } else {
